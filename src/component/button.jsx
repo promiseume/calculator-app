@@ -13,7 +13,7 @@ export default class Button extends Component {
   };
 
   handleCalculation = () => {
-  this.setState({ display: math.evaluate(this.state.display) });
+   this.setState({ display: math.evaluate(this.state.display) });
   };
   handleDelete = () => {
     this.setState({ display: "" });
@@ -21,9 +21,8 @@ export default class Button extends Component {
   render() {
     return (
       <div class="container">
-        <div className="screen">
+        <div className='screen'>
           <h1>{this.state.display}</h1>
-          
         </div>
         <div className="keypads">
           <button onClick={this.handleButton}>1</button>
