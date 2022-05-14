@@ -11,7 +11,7 @@ body {
   width: 350px;
   flex-wrap: wrap;
   border: 4px solid #22253f;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 .keypads {
   display: grid;
